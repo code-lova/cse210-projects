@@ -9,7 +9,8 @@ class Program
         Boolean guessCorrectly = false;
         int numberOfGuess = 0;
         string response = "yes";
-
+        
+        
         Random randonGenerator = new Random();
         int answer = randonGenerator.Next(1, 100);
         
@@ -34,6 +35,10 @@ class Program
 
             if (cvtInput == answer){
                 guessCorrectly = true;
+                //Reset random number generator
+                answer = randonGenerator.Next(1, 100);
+                Console.WriteLine(answer);
+
             }else{
                 guessCorrectly = false;
                 numberOfGuess += 1;
@@ -41,7 +46,15 @@ class Program
 
             if (guessCorrectly == true){
                 Console.Write("Do you want to play again? yes/no: ");
-                response = Console.ReadLine();
+                string responses = Console.ReadLine();
+                if(responses == "yes"){
+                    //Reset all values and start again.
+                    guessCorrectly = false;
+                    numberOfGuess = 0;
+                }else if(responses == "no"){
+                    guessCorrectly = true;
+                    response = "no";
+                }
             }
         }
 
