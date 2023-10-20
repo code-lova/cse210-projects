@@ -12,9 +12,11 @@ class Program
         Fraction fraction4 = new Fraction(1,3);
 
 
-        // Getters and setters
+        // Getters and setters for fraction 1 
+        //just to see.
         fraction1.SetTop(1);
         fraction1.SetBottom(1);
+
 
         // Displaying different representations
         Console.WriteLine("Fraction 1");
