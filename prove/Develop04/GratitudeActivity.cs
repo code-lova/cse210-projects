@@ -39,7 +39,7 @@ public class GratitudeActivity : MindfullnessActivity{
 
         foreach (string item in _gratitude)
         {
-            questionSpinners($"{item} ");
+            QuestionSpinners($"{item} ");
         }
 
         Console.WriteLine();
@@ -49,7 +49,7 @@ public class GratitudeActivity : MindfullnessActivity{
 
         Console.Clear();
 
-        questionSpinners("Now take a moment to appreciate these blessings in your life. ");
+        QuestionSpinners("Now take a moment to appreciate these blessings in your life. ");
 
         Console.WriteLine();
         EndActivity();

@@ -67,7 +67,7 @@ public class ReflectionActivity : MindfullnessActivity{
        
         for (int i = 0; i < 2; i++){
 
-            questionSpinners($"{_questions[i % _questions.Count]} ");
+            QuestionSpinners($"{_questions[i % _questions.Count]} ");
 
             Console.Write("");
 

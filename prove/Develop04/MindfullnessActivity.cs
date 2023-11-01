@@ -54,7 +54,7 @@ public class MindfullnessActivity{
     }
 
     //Spinner for question in reflection activity.
-    public List<string> questionSpinners(string message){
+    public List<string> QuestionSpinners(string message){
 
         List<string> theSpinner = new List<string>();
         theSpinner.Add("|");
