@@ -1,0 +1,5 @@
+1570
+SimpleGoal**Give a talk|Speak in sacarment meeting|100|True
+EternalGoal**Study the scripture|Study for at least 10 minutes|50
+CheckListGoal**Attend the temple|Attend and perform ordinances|550|500|3|1
+CheckListGoal**Wake up early |Wake up at least 6:00am|10|1000|10|2
