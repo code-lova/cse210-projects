@@ -1,0 +1,6 @@
+Electronics:Head Phone,60,9,Beats
+Fashion:Polo,40,2,XXL
+Electronics:Mobile Phone,30,45,Iphone-X
+Electronics:HP Laptop,300,9,HP
+Electronics:Electric Fan,80,12,Panasonic
+Furniture:Center Table,49,23,Gino LTD

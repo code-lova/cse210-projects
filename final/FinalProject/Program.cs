@@ -11,14 +11,7 @@ class Program
 
         ShoppingCartApp shoppingApp = new ShoppingCartApp();
 
-
         shoppingApp.StartApplication();
-
-
-
-
-
-
 
 
     }

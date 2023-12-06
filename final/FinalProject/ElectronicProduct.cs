@@ -28,5 +28,12 @@ public class ElectronicProduct: Product{
     }
 
 
+    public override string DisplayProductString()
+    {
+        return $"Electronics:{GetName},{GetPrice},{GetStockQty},{GetBrand}";
+        
+    }
+
+
 
 }

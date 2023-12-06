@@ -26,4 +26,10 @@ public class ClothsProduct : Product
         return $"Cloth: {GetName} - Price: ${GetPrice} - Quantity: {GetStockQty} - Size: {GetSize}";
     }
 
+
+    public override string DisplayProductString()
+    {
+        return $"Fashion:{GetName},{GetPrice},{GetStockQty},{GetSize}";
+    }
+
 }

@@ -8,6 +8,7 @@ public abstract class Product{
     private string _price;
     private string _stockQuantity = "";
 
+
     //declearing constructors 
     public Product(string name, string price, string stockQuantity){
 
@@ -42,9 +43,11 @@ public abstract class Product{
         set{ _stockQuantity = value; }
     }
 
+    public abstract string DisplayProductString();
+
     public virtual string Display(){
 
-        return $"Name: {GetName} - Price: ${GetPrice} - Quantity: {GetStockQty}";
+        return $"Name: {GetName} - Price: ${GetPrice} - Quantity: {GetStockQty} ";
     }
 
 

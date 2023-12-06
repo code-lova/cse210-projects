@@ -28,4 +28,11 @@ public class FurnitureProduct: Product{
     }
 
 
+    public override string DisplayProductString()
+    {
+        return $"Furniture:{GetName},{GetPrice},{GetStockQty},{GetFurnitureType}";
+
+    }
+
+
 }
